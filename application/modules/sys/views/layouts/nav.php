@@ -28,7 +28,7 @@
                 <li class="dropdown2 <?php echo $this->router->class == 'city' ? 'active' : ''; ?>">
                     <a href="<?php echo create_url('sys/city'); ?>" class="dropdown-toggle2" data-toggle="dropdown2">
                         <span class="glyphicon glyphicon-th-list"></span>&nbsp;
-                        City&nbsp;
+                        Catalog&nbsp;
                         <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
@@ -40,7 +40,7 @@
                 <li class="dropdown2 <?php echo $this->router->class == 'company' ? 'active' : ''; ?>">
                     <a href="<?php echo create_url('sys/company'); ?>" class="dropdown-toggle2" data-toggle="dropdown2">
                         <span class="glyphicon glyphicon-hdd"></span>&nbsp;
-                        Company&nbsp;
+                        Sale&nbsp;
                         <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
@@ -50,14 +50,16 @@
                 </li>
 
                 <li class="dropdown2 <?php echo $this->router->class == 'machine' ? 'active' : ''; ?>">
-                    <a href="<?php echo create_url('sys/machine'); ?>" class="dropdown-toggle2" data-toggle="dropdown2">
+                    <a href="<?php echo create_url('sys/system'); ?>" class="dropdown-toggle" data-toggle="dropdown">
                         <span class="glyphicon glyphicon-compressed"></span>&nbsp;
-                        Machine&nbsp;
+                        System&nbsp;
                         <b class="caret"></b>
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a href="<?php echo create_url('sys/machine'); ?>">List machine</a></li>
-                        <li><a href="<?php echo create_url('sys/machine/add'); ?>">Add new</a></li>
+                        <li><a href="<?php echo create_url('sys/machine'); ?>">Page manage</a></li>
+                        <li><a href="<?php echo create_url('sys/machine/add'); ?>">Block static</a></li>
+                        <li><a href="<?php echo create_url('sys/machine/add'); ?>">Language</a></li>
+                        <li><a href="<?php echo create_url('sys/machine/add'); ?>">Configuration</a></li>
                     </ul>
                 </li>
 
@@ -87,7 +89,7 @@
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
-                <?php if (!session_login()) : ?>
+                <?php if (!$this->render->sys_logined()) : ?>
                 <li id="nav-register-btn"><a href="/register"><?php echo $this->lang->line('lbl_register'); ?></a></li>
                 <li id="nav-login-btn"><a href="<?php echo create_url('login'); ?>"><i class="icon-login"></i><?php echo $this->lang->line('lbl_login'); ?></a></li>
                 <?php else: ?>
@@ -100,7 +102,7 @@
                     </ul>
                 </li>
                 <li class="dropdown2 <?php echo $this->router->class == '/<' ? 'active' : ''; ?>">
-                    <a href="<?php echo create_url('sys/<'); ?>" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> <?php echo session_login(false)->username; ?> <b class2="caret"></b></a2>
+                    <a href="<?php echo create_url('sys/<'); ?>" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> <?php echo $this->render->sys_logined(true)->name; ?> <b class2="caret"></b></a2>
                     <ul class="dropdown-menu">
                         <li><a href="#"><span class="glyphicon glyphicon-tasks"></span>&nbsp;<?php echo $this->lang->line('lbl_profile');?></a></li>
                         <li class="divider"></li>

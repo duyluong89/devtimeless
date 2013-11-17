@@ -41,6 +41,7 @@
 $route['captcha.jpg']                = "ps/captcha";
 $route['default_controller']         = "dev/home/index";
 $route['about']						 =	"dev/about/index";
+$route['sys']						 = 	"sys/auth/login";
 #$route['404_override']               = '';
 
 

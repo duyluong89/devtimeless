@@ -14,7 +14,7 @@
 
             <ul class="nav navbar-nav">
                 <li class="dropdown2 <?php echo $this->router->class == 'user' ? 'active' : ''; ?>">
-                    <a href="<?php echo create_url('sys/user'); ?>" class="dropdown-toggle2" data-toggle="dropdown2">
+                    <a href="<?php echo create_url('sys/user'); ?>" class="dropdown-toggle" data-toggle="dropdown">
                         <span class="glyphicon glyphicon-user"></span>&nbsp;
                         User&nbsp;
                         <b class="caret"></b>
@@ -26,7 +26,7 @@
                 </li>
 
                 <li class="dropdown2 <?php echo $this->router->class == 'city' ? 'active' : ''; ?>">
-                    <a href="<?php echo create_url('sys/city'); ?>" class="dropdown-toggle2" data-toggle="dropdown2">
+                    <a href="<?php echo create_url('sys/city'); ?>" class="dropdown-toggle" data-toggle="dropdown">
                         <span class="glyphicon glyphicon-th-list"></span>&nbsp;
                         City&nbsp;
                         <b class="caret"></b>
@@ -37,16 +37,13 @@
                     </ul>
                 </li>
 
-                <li class="dropdown2 <?php echo $this->router->class == 'company' ? 'active' : ''; ?>">
+                <li class="dropdown <?php echo $this->router->class == 'company' ? 'active' : ''; ?>">
                     <a href="<?php echo create_url('about'); ?>" class="dropdown-toggle2" data-toggle="dropdown2">
                         <span class="glyphicon glyphicon-hdd"></span>&nbsp;
                         Company&nbsp;
                         <b class="caret"></b>
                     </a>
-                    <ul class="dropdown-menu">
-                        <li><a href="<?php echo create_url('sys/company'); ?>">List company</a></li>
-                        <li><a href="<?php echo create_url('sys/company/add'); ?>">Add new</a></li>
-                    </ul>
+                    
                 </li>
 
                 <li class="dropdown2 <?php echo $this->router->class == 'machine' ? 'active' : ''; ?>">

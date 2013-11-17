@@ -89,7 +89,7 @@ class MY_Controller extends MX_Controller
         $_method     = $this->_method     = $this->router->method;
         $_rout       = $this->_rout       = "{$this->_modules}/{$this->_controller}/{$this->_method}";
 
-
+		
         # Check login
 //         if (!session_login() AND ($this->_controller != 'auth') ) {
 //             redirect(create_url('login'));
@@ -185,7 +185,7 @@ class MY_Controller extends MX_Controller
 
             // Do we have any asides? Load them.
             if (!empty($this->asides))
-            {
+            { 
                 foreach ($this->asides as $name => $file)
                 {
                     $data['yield_'.$name] = $this->load->view($file, $this->data, TRUE);
@@ -242,7 +242,7 @@ class MY_Controller extends MX_Controller
     {
         foreach ($this->models as $model)
         {
-            $this->load->model($this->_model_name($model), $model);
+            $this->load->model($this->_modules . '/' .$this->_model_name($model), $model);
         }
     }
 
@@ -269,4 +269,22 @@ class MY_Controller extends MX_Controller
             $this->load->helper($helper);
         }
     }
+    
+    public function content($data){
+    	if(array_key_exists('content',$this->data))
+    		$this->data['content'] .= $data;
+    	else $this->data['content'] = $data;
+    }
+    
+    public function left($data){
+    	if(array_key_exists('left',$this->data))
+    		$this->data['left'] .= $data;
+    	else $this->data['left'] = $data;
+    }
+    public function right($data){
+    	if(array_key_exists('right',$this->data))
+    		$this->data['right'] .= $data;
+    	else $this->data['right'] = $data;
+    }
 }
+require_once 'SYS_Controller.php';

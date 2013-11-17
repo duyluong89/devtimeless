@@ -1,4 +1,5 @@
 $(function(){
+	
     $('.sidebar_menu_item').on('click', function(e){
         e.preventDefault();
         i = $(this);

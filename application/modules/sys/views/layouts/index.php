@@ -37,7 +37,6 @@
         </div>
         <div id="footer">
             <div class="container">
-            <?php echo $this->load->view('layouts/footer', TRUE);?>
                 <p class="text-muted credit">&copy; 2013 Public Solution by <a href="http://www.kloon.vn" target="_blank"> Kloon</a>.</p>
             </div>
         </div>

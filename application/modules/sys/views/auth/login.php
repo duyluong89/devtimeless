@@ -2,12 +2,11 @@
 <div class="container">
     <form class="form-signin" method="post">
         <h2 class="form-signin-heading"><?php echo $this->lang->line('msg_please_sign_in');?></h2>
-        <?php if (isset($status) AND ($status == FALSE) AND (isset($msg)) AND (!empty($msg)) ): ?>
+        <?php if ((isset($msg)) AND (!empty($msg)) ): ?>
         <div class="alert alert-danger"><?php echo $msg; ?></div>
         <?php endif; ?>
-        <input type="text" name="username" value="" class="form-control" placeholder="Username" required autofocus>
+        <input type="email" name="email" value="" class="form-control" placeholder="Email login" required autofocus>
         <input type="password" name="password" value="" class="form-control" placeholder="Password" required>
-        <label class="checkbox"><input type="checkbox" value="remember-me"><?php echo $this->lang->line('lbl_remember_me'); ?></label>
         <button class="btn btn-lg btn-primary btn-block" type="submit"><?php echo $this->lang->line('lbl_sign_in');?></button>
         <div style="margin-top: 40px; text-align: center;">
             <span class="pull-left">
@@ -25,6 +24,5 @@
             </span>
         </div>
     </form>
-
 
 </div>

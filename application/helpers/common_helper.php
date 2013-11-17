@@ -4,7 +4,6 @@
     /**
      * Get server base path
      * @return Ambiguous
-     * @author Chien Tran <tran.duc.chien@kloon.vn>
      * @created 4 Nov 2013
      */
     function get_server_path(){

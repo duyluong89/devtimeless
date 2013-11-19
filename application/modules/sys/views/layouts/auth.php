@@ -1,32 +1,93 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Login CP</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Bootstrap -->
-        <link href="<?php echo assets('bootstrap.min.css', ASSET_TYPE_CSS); ?>" rel="stylesheet" media="screen">
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-          <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-          <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-        <![endif]-->
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Login Page - Ace Admin</title>
 
-        <script type="text/javascript" src="<?php echo assets('jquery-1.10.2.min.js', ASSET_TYPE_JS); ?>"></script>
-        <script type="text/javascript" src="<?php echo assets('bootstrap.min.js', ASSET_TYPE_JS); ?>"></script>
-        <script type="text/javascript">
-            $(function(){
-                $('.captcha_img').on('click', function(e){
-                    e.preventDefault();
-                    i = $(this);
-                    url = i.attr('src');
-                    i.attr('src', '');
-                    i.attr('src', url)
-                });
-            });
-        </script>
-    </head>
-    <body>
-        <?php echo $yield; ?>
-    </body>
+		<meta name="description" content="User login page" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!--basic styles-->
+
+		<link href="<?php echo base_url("assets/sys/")?>/css/bootstrap.min.css" rel="stylesheet" />
+		<link href="<?php echo base_url("assets/sys/")?>/css/bootstrap-responsive.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="<?php echo base_url("assets/sys/")?>/css/font-awesome.min.css" />
+
+		<!--[if IE 7]>
+		  <link rel="stylesheet" href="<?php echo base_url("assets/sys/")?>/css/font-awesome-ie7.min.css" />
+		<![endif]-->
+
+		<!--page specific plugin styles-->
+
+		<!--fonts-->
+
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300" />
+
+		<!--ace styles-->
+
+		<link rel="stylesheet" href="<?php echo base_url("assets/sys/")?>/css/ace.min.css" />
+		<link rel="stylesheet" href="<?php echo base_url("assets/sys/")?>/css/ace-responsive.min.css" />
+		<link rel="stylesheet" href="<?php echo base_url("assets/sys/")?>/css/ace-skins.min.css" />
+
+		<!--[if lte IE 8]>
+		  <link rel="stylesheet" href="<?php echo base_url("assets/sys/")?>/css/ace-ie.min.css" />
+		<![endif]-->
+
+		<!--inline styles related to this page-->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+
+	<body class="login-layout">
+		<div class="main-container container-fluid">
+			<div class="main-content">
+				<?php echo $yield; ?>
+			</div>
+		</div><!--/.main-container-->
+
+		<!--basic scripts-->
+
+		<!--[if !IE]>-->
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+		<!--<![endif]-->
+
+		<!--[if IE]>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<![endif]-->
+
+		<!--[if !IE]>-->
+
+		<script type="text/javascript">
+			window.jQuery || document.write("<script src='assets/js/jquery-2.0.3.min.js'>"+"<"+"/script>");
+		</script>
+
+		<!--<![endif]-->
+
+		<!--[if IE]>
+<script type="text/javascript">
+ window.jQuery || document.write("<script src='assets/js/jquery-1.10.2.min.js'>"+"<"+"/script>");
+</script>
+<![endif]-->
+
+		<script type="text/javascript">
+			if("ontouchend" in document) document.write("<script src='assets/js/jquery.mobile.custom.min.js'>"+"<"+"/script>");
+		</script>
+		<script src="<?php echo base_url("assets/sys/")?>/js/bootstrap.min.js"></script>
+
+		<!--page specific plugin scripts-->
+
+		<!--ace scripts-->
+
+		<script src="<?php echo base_url("assets/sys/")?>/js/ace-elements.min.js"></script>
+		<script src="<?php echo base_url("assets/sys/")?>/js/ace.min.js"></script>
+
+		<!--inline scripts related to this page-->
+
+		<script type="text/javascript">
+			function show_box(id) {
+			 $('.widget-box.visible').removeClass('visible');
+			 $('#'+id).addClass('visible');
+			}
+		</script>
+	</body>
 </html>

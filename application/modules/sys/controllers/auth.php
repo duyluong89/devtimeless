@@ -7,7 +7,7 @@ class Auth extends SYS_Controller{
 		$this->load->helper(array('form', 'url'));
 		$this->load->library('form_validation');
 		
-		
+		if($this->render->sys_logined() && $this->_method == "login") redirect(create_url("sys/dashboard"));
 	}
 
 	function login(){

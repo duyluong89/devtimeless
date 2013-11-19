@@ -1,116 +1,262 @@
-<nav class="navbar navbar-default" role="navigation">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-bootsnipp-collapse">
-                <span class="sr-only"><?php echo $this->lang->line('lbl_toggle_navigation'); ?></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="<?php echo create_url('home'); ?>"><?php echo $this->lang->line('lbl_public_solution'); ?></a>
-        </div>
+<div class="navbar">
+			<div class="navbar-inner">
+				<div class="container-fluid">
+					<a href="#" class="brand">
+						<small>
+							<i class="icon-leaf"></i>
+							Dev Timeless Admin
+						</small>
+					</a><!--/.brand-->
 
-        <div class="collapse navbar-collapse navbar-bootsnipp-collapse">
+					<ul class="nav ace-nav pull-right">
+						<!--  li class="grey">
+							<a data-toggle="dropdown" class="dropdown-toggle" href="#">
+								<i class="icon-tasks"></i>
+								<span class="badge badge-grey">4</span>
+							</a>
 
-            <ul class="nav navbar-nav">
-                <li class="dropdown2 <?php echo $this->router->class == 'user' ? 'active' : ''; ?>">
-                    <a href="<?php echo create_url('sys/user'); ?>" class="dropdown-toggle2" data-toggle="dropdown2">
-                        <span class="glyphicon glyphicon-user"></span>&nbsp;
-                        User&nbsp;
-                        <b class="caret"></b>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a href="<?php echo create_url('sys/user'); ?>">List Users</a></li>
-                        <li><a href="<?php echo create_url('sys/user/add'); ?>">Add new</a></li>
-                    </ul>
-                </li>
+							<ul class="pull-right dropdown-navbar dropdown-menu dropdown-caret dropdown-closer">
+								<li class="nav-header">
+									<i class="icon-ok"></i>
+									4 Tasks to complete
+								</li>
 
-                <li class="dropdown2 <?php echo $this->router->class == 'city' ? 'active' : ''; ?>">
-                    <a href="<?php echo create_url('sys/city'); ?>" class="dropdown-toggle2" data-toggle="dropdown2">
-                        <span class="glyphicon glyphicon-th-list"></span>&nbsp;
-                        Catalog&nbsp;
-                        <b class="caret"></b>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a href="<?php echo create_url('sys/city'); ?>">List city</a></li>
-                        <li><a href="<?php echo create_url('sys/city/add'); ?>">Add new</a></li>
-                    </ul>
-                </li>
+								<li>
+									<a href="#">
+										<div class="clearfix">
+											<span class="pull-left">Software Update</span>
+											<span class="pull-right">65%</span>
+										</div>
 
-                <li class="dropdown2 <?php echo $this->router->class == 'company' ? 'active' : ''; ?>">
-                    <a href="<?php echo create_url('sys/company'); ?>" class="dropdown-toggle2" data-toggle="dropdown2">
-                        <span class="glyphicon glyphicon-hdd"></span>&nbsp;
-                        Sale&nbsp;
-                        <b class="caret"></b>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a href="<?php echo create_url('sys/company'); ?>">List company</a></li>
-                        <li><a href="<?php echo create_url('sys/company/add'); ?>">Add new</a></li>
-                    </ul>
-                </li>
+										<div class="progress progress-mini ">
+											<div style="width:65%" class="bar"></div>
+										</div>
+									</a>
+								</li>
 
-                <li class="dropdown2 <?php echo $this->router->class == 'machine' ? 'active' : ''; ?>">
-                    <a href="<?php echo create_url('sys/system'); ?>" class="dropdown-toggle" data-toggle="dropdown">
-                        <span class="glyphicon glyphicon-compressed"></span>&nbsp;
-                        System&nbsp;
-                        <b class="caret"></b>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a href="<?php echo create_url('sys/machine'); ?>">Page manage</a></li>
-                        <li><a href="<?php echo create_url('sys/machine/add'); ?>">Block static</a></li>
-                        <li><a href="<?php echo create_url('sys/machine/add'); ?>">Language</a></li>
-                        <li><a href="<?php echo create_url('sys/machine/add'); ?>">Configuration</a></li>
-                    </ul>
-                </li>
+								<li>
+									<a href="#">
+										<div class="clearfix">
+											<span class="pull-left">Hardware Upgrade</span>
+											<span class="pull-right">35%</span>
+										</div>
 
-                <li class="dropdown2 <?php echo $this->router->class == 'device' ? 'active' : ''; ?>">
-                    <a href="<?php echo create_url('sys/device'); ?>" class="dropdown-toggle2" data-toggle="dropdown2">
-                        <span class="glyphicon glyphicon-inbox"></span>&nbsp;
-                        Device&nbsp;
-                        <b class="caret"></b>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a href="<?php echo create_url('sys/device'); ?>">List device</a></li>
-                        <li><a href="<?php echo create_url('sys/device/add'); ?>">Add new</a></li>
-                    </ul>
-                </li>
+										<div class="progress progress-mini progress-danger">
+											<div style="width:35%" class="bar"></div>
+										</div>
+									</a>
+								</li>
 
-                <li class="dropdown2 <?php echo $this->router->class == 'object' ? 'active' : ''; ?>">
-                    <a href="<?php echo create_url('sys/object'); ?>" class="dropdown-toggle2" data-toggle="dropdown2">
-                        <span class="glyphicon glyphicon-link"></span>&nbsp;
-                        Object&nbsp;
-                        <b class="caret"></b>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a href="<?php echo create_url('sys/object'); ?>">List object</a></li>
-                        <li><a href="<?php echo create_url('sys/object/add'); ?>">Add new</a></li>
-                    </ul>
-                </li>
-            </ul>
+								<li>
+									<a href="#">
+										<div class="clearfix">
+											<span class="pull-left">Unit Testing</span>
+											<span class="pull-right">15%</span>
+										</div>
 
-            <ul class="nav navbar-nav navbar-right">
-                <?php if (!$this->render->sys_logined()) : ?>
-                <li id="nav-register-btn"><a href="/register"><?php echo $this->lang->line('lbl_register'); ?></a></li>
-                <li id="nav-login-btn"><a href="<?php echo create_url('login'); ?>"><i class="icon-login"></i><?php echo $this->lang->line('lbl_login'); ?></a></li>
-                <?php else: ?>
-                <li class="dropdown2 <?php echo $this->router->class == '/<?' ? 'active' : ''; ?>">
-                    <a href="<?php echo create_url('sys/<?'); ?>" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-globe"></span> <?php echo current_language() ? current_language() : $this->lang->line('lbl_language'); ?> <b class2="caret"></b></a2>
-                    <ul class="dropdown-menu">
-                        <?php foreach (config_item('language_array') as $key => $value) : ?>
-                        <li><a href="<?php echo current_url_with_params(array('language' => $key)); ?>"><?php echo $value;?></a></li>
-                        <?php endforeach; ?>
-                    </ul>
-                </li>
-                <li class="dropdown2 <?php echo $this->router->class == '/<' ? 'active' : ''; ?>">
-                    <a href="<?php echo create_url('sys/<'); ?>" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> <?php echo $this->render->sys_logined(true)->name; ?> <b class2="caret"></b></a2>
-                    <ul class="dropdown-menu">
-                        <li><a href="#"><span class="glyphicon glyphicon-tasks"></span>&nbsp;<?php echo $this->lang->line('lbl_profile');?></a></li>
-                        <li class="divider"></li>
-                        <li><a href="<?php echo create_url('logout'); ?>"><span class="glyphicon glyphicon-edit"></span>&nbsp;<?php echo $this->lang->line('lbl_logout'); ?></a></li>
-                    </ul>
-                </li>
-                <?php endif; ?>
-            </ul>
-        </div>
-    </div>
-</nav>
+										<div class="progress progress-mini progress-warning">
+											<div style="width:15%" class="bar"></div>
+										</div>
+									</a>
+								</li>
+
+								<li>
+									<a href="#">
+										<div class="clearfix">
+											<span class="pull-left">Bug Fixes</span>
+											<span class="pull-right">90%</span>
+										</div>
+
+										<div class="progress progress-mini progress-success progress-striped active">
+											<div style="width:90%" class="bar"></div>
+										</div>
+									</a>
+								</li>
+
+								<li>
+									<a href="#">
+										See tasks with details
+										<i class="icon-arrow-right"></i>
+									</a>
+								</li>
+							</ul>
+						</li>
+
+						<li class="purple">
+							<a data-toggle="dropdown" class="dropdown-toggle" href="#">
+								<i class="icon-bell-alt icon-animated-bell"></i>
+								<span class="badge badge-important">8</span>
+							</a>
+
+							<ul class="pull-right dropdown-navbar navbar-pink dropdown-menu dropdown-caret dropdown-closer">
+								<li class="nav-header">
+									<i class="icon-warning-sign"></i>
+									8 Notifications
+								</li>
+
+								<li>
+									<a href="#">
+										<div class="clearfix">
+											<span class="pull-left">
+												<i class="btn btn-mini no-hover btn-pink icon-comment"></i>
+												New Comments
+											</span>
+											<span class="pull-right badge badge-info">+12</span>
+										</div>
+									</a>
+								</li>
+
+								<li>
+									<a href="#">
+										<i class="btn btn-mini btn-primary icon-user"></i>
+										Bob just signed up as an editor ...
+									</a>
+								</li>
+
+								<li>
+									<a href="#">
+										<div class="clearfix">
+											<span class="pull-left">
+												<i class="btn btn-mini no-hover btn-success icon-shopping-cart"></i>
+												New Orders
+											</span>
+											<span class="pull-right badge badge-success">+8</span>
+										</div>
+									</a>
+								</li>
+
+								<li>
+									<a href="#">
+										<div class="clearfix">
+											<span class="pull-left">
+												<i class="btn btn-mini no-hover btn-info icon-twitter"></i>
+												Followers
+											</span>
+											<span class="pull-right badge badge-info">+11</span>
+										</div>
+									</a>
+								</li>
+
+								<li>
+									<a href="#">
+										See all notifications
+										<i class="icon-arrow-right"></i>
+									</a>
+								</li>
+							</ul>
+						</li>
+
+						<li class="green">
+							<a data-toggle="dropdown" class="dropdown-toggle" href="#">
+								<i class="icon-envelope icon-animated-vertical"></i>
+								<span class="badge badge-success">5</span>
+							</a>
+
+							<ul class="pull-right dropdown-navbar dropdown-menu dropdown-caret dropdown-closer">
+								<li class="nav-header">
+									<i class="icon-envelope-alt"></i>
+									5 Messages
+								</li>
+
+								<li>
+									<a href="#">
+										<img src="<?php echo base_url("assets/sys/")?>/avatars/avatar.png" class="msg-photo" alt="Alex's Avatar" />
+										<span class="msg-body">
+											<span class="msg-title">
+												<span class="blue">Alex:</span>
+												Ciao sociis natoque penatibus et auctor ...
+											</span>
+
+											<span class="msg-time">
+												<i class="icon-time"></i>
+												<span>a moment ago</span>
+											</span>
+										</span>
+									</a>
+								</li>
+
+								<li>
+									<a href="#">
+										<img src="<?php echo base_url("assets/sys/")?>/avatars/avatar3.png" class="msg-photo" alt="Susan's Avatar" />
+										<span class="msg-body">
+											<span class="msg-title">
+												<span class="blue">Susan:</span>
+												Vestibulum id ligula porta felis euismod ...
+											</span>
+
+											<span class="msg-time">
+												<i class="icon-time"></i>
+												<span>20 minutes ago</span>
+											</span>
+										</span>
+									</a>
+								</li>
+
+								<li>
+									<a href="#">
+										<img src="<?php echo base_url("assets/sys/")?>/avatars/avatar4.png" class="msg-photo" alt="Bob's Avatar" />
+										<span class="msg-body">
+											<span class="msg-title">
+												<span class="blue">Bob:</span>
+												Nullam quis risus eget urna mollis ornare ...
+											</span>
+
+											<span class="msg-time">
+												<i class="icon-time"></i>
+												<span>3:15 pm</span>
+											</span>
+										</span>
+									</a>
+								</li>
+
+								<li>
+									<a href="#">
+										See all messages
+										<i class="icon-arrow-right"></i>
+									</a>
+								</li>
+							</ul>
+						</li -->
+
+						<li class="light-blue">
+							<a data-toggle="dropdown" href="#" class="dropdown-toggle">
+								<img class="nav-user-photo" src="<?php echo base_url("assets/sys/")?>/avatars/user.jpg" alt="Jason's Photo" />
+								<span class="user-info">
+									<small>Welcome,</small>
+									<?php if($this->render->sys_logined()):?>
+										<?php echo $this->render->sys_logined(TRUE)->name?>
+									<?php endif?>
+								</span>
+
+								<i class="icon-caret-down"></i>
+							</a>
+
+							<ul class="user-menu pull-right dropdown-menu dropdown-yellow dropdown-caret dropdown-closer">
+								<li>
+									<a href="#">
+										<i class="icon-cog"></i>
+										Settings
+									</a>
+								</li>
+
+								<li>
+									<a href="#">
+										<i class="icon-user"></i>
+										Profile
+									</a>
+								</li>
+
+								<li class="divider"></li>
+
+								<li>
+									<a href="<?php echo create_url('sys/auth/logout'); ?>">
+										<i class="icon-off"></i>
+										Logout
+									</a>
+								</li>
+							</ul>
+						</li>
+					</ul><!--/.ace-nav-->
+				</div><!--/.container-fluid-->
+			</div><!--/.navbar-inner-->
+		</div>

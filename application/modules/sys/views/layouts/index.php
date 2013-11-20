@@ -74,7 +74,7 @@
 					<?php echo $yield; ?>
 				</div><!--/.page-content-->
 
-				<div class="ace-settings-container" id="ace-settings-container">
+				<div class="ace-settings-container" id="ace-settings-container" style="display:none;">
 					<div class="btn btn-app btn-mini btn-warning ace-settings-btn" id="ace-settings-btn">
 						<i class="icon-cog bigger-150"></i>
 					</div>

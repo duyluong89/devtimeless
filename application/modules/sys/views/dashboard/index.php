@@ -980,6 +980,33 @@
 										<div class="widget-body">
 											<div class="widget-main no-padding">
 												<div class="dialogs">
+												<?php if(count($chats) > 0):?>
+													<?php foreach ($chats as $key => $chat) : ?>
+														<div class="itemdiv dialogdiv">
+														<div class="user">
+															<img alt="Alexa's Avatar" src="<?php echo base_url("assets/sys/")?>/avatars/avatar1.png" />
+														</div>
+
+														<div class="body">
+															<div class="time">
+																<i class="icon-time"></i>
+																<span class="green">4 sec</span>
+															</div>
+
+															<div class="name">
+																<a href="#"><?php echo $chat->name?></a>
+															</div>
+															<div class="text"><?php echo $chat->message?></div>
+
+															<div class="tools">
+																<a href="#" class="btn btn-minier btn-info">
+																	<i class="icon-only icon-share-alt"></i>
+																</a>
+															</div>
+														</div>
+													</div>
+													<?php endforeach?>
+												<?php endif?>
 													<div class="itemdiv dialogdiv">
 														<div class="user">
 															<img alt="Alexa's Avatar" src="<?php echo base_url("assets/sys/")?>/avatars/avatar1.png" />

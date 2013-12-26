@@ -1,0 +1,51 @@
+.navbar.navbar-default {
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    background: #205081;
+    border-color: #205081
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 1200px) {
+    #login-form {
+        float: right;
+        width: 500px;
+        padding: 20px 50px 20px 23px;
+        border: 1px solid #205081;
+        border-radius: 7px;
+    }
+
+    #login-form .btn.btn-default {
+        width: 100px;
+        margin-top: 7px;
+    }
+
+    .login-view.text-larg {
+        float: left;
+    }
+}
+

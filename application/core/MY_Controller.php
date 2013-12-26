@@ -79,7 +79,9 @@ class MY_Controller extends MX_Controller
      * Initialise the controller, tie into the CodeIgniter superobject
      * and try to autoload the models and helpers
      */
+
     public function __construct(){
+
         parent::__construct();
 
         # Global router information
@@ -114,6 +116,7 @@ class MY_Controller extends MX_Controller
             $current_language     = $this->config->item('language');
             $_SESSION['language'] = $current_language;
         }
+        $this->_global_language = $current_language;
         $this->config->set_item('language', $current_language);
 
         $this->load->language('global'      , $current_language);
@@ -288,3 +291,4 @@ class MY_Controller extends MX_Controller
     }
 }
 require_once 'SYS_Controller.php';
+require_once 'Tracker_Controller.php';

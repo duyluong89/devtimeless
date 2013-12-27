@@ -124,6 +124,7 @@ class MY_Controller extends MX_Controller
         $this->load->language('winterdienst', $current_language);
         $this->load->language('worker'      , $current_language);
         $this->load->language('home'        , $current_language);
+        $this->load->library(array('encryption'));
 
         # Breadcrumb
         $this->breadcrumb->append_crumb('Public Solution', base_url());

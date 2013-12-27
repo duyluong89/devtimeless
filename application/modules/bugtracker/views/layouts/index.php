@@ -27,6 +27,9 @@
 
         <!--// Custom layout -->
         <link href="<?php echo assets('bugtracker/css/stylesheet.css'); ?>" rel="stylesheet">
+        <script src="<?php echo assets('js/notify.js'); ?>"></script>
+        <script src="<?php echo assets('bugtracker/js/config.js'); ?>"></script>
+        <script src="<?php echo assets('bugtracker/js/pc.user.js'); ?>"></script>
         <script src="<?php echo assets('bugtracker/js/bugtracker.js'); ?>"></script>
     </head>
     <body>

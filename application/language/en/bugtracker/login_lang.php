@@ -10,4 +10,5 @@ $lang = array(
     'lbl_system_bug_tracking'       =>  'System Bug Tracking',
     'lbl_username'                  =>  'UserName',
     'lbl_password'                  =>  'Password',
+    'error_invalid_login'           =>  'Invalid login',
 );

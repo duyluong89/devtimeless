@@ -6,6 +6,37 @@
     border-color: #205081
 }
 
+.loading-ajax {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    line-height: 32%;
+    margin: 0 auto;
+    padding: 0;
+    left: 0px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.loading-ajax img {
+    display: block;
+    margin: 20% auto;
+}
+#login-form{position: relative;}
+body{position: relative;}
+#notification-container{position:absolute;right:430px;top:28px;height:50px; left: 20%;}
+#notifications .notification{background-position:20px 8px;background-repeat:no-repeat;color:#666;margin:0 auto 10px;padding:5px 5px 5px 65px;position:relative;width:365px;z-index:1500}
+#notifications .notification.success{background-color:#efffe9;background-image:url("../images/notifications/notification-success-bg.png");border:1px solid #d1f2d6;box-shadow:0 0 15px #6da16f}
+#notifications .notification.error{background-color:#ffe9e9;background-image:url("../images/notifications/notification-error-bg.png");border:1px solid #ff7373;box-shadow:0 0 15px #ff7373}
+#notifications .notification.info{background-color:#f9f2db;background-image:url("../images/notifications/notification-info-bg.png");border:1px solid #f0dec8;box-shadow:0 0 15px #d0995c}
+#notifications .close{background:url("../images/notifications/icons_video.png") no-repeat scroll 0 1px transparent;cursor:pointer;height:23px;margin-left:5px;position:absolute;right:0;top:0;width:23px}
+#notifications .notification p{font-size:12px;margin:0}
+#notifications .notification h2{font-size:14px;font-weight:bold;margin:0}
+#notifications .notification.success h2{color:#6da16f}
+#notifications .notification.error h2{color:#ff7373}
+#notifications .notification.info h2{color:#d0995c}
+
 @media (min-width: 768px) {
 
 }

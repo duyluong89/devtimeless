@@ -13,5 +13,6 @@ class Tracker_Controller extends MY_Controller{
         $this->load->helper(array('form'));
         $this->load->language('bugtracker/login', $this->_global_language);
         $this->load->language('bugtracker/global', $this->_global_language);
+        $this->load->language('bugtracker/block', $this->_global_language);
     }
 }

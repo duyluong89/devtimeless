@@ -15,7 +15,23 @@ class Home extends Tracker_Controller
 
     public function index()
     {
-        $this->content("da");
+        $assign_to_me = array(
+            'block_title' => $this->lang->line('lbl_assign_to_me'),
+            'block_content' => 'content block',
+            'block_class' => 'assign_to_me'
+        );
+        $my_watched = array(
+            'block_title' => $this->lang->line('lbl_assign_to_me'),
+            'block_content' => 'content block',
+            'block_class' => 'my_watched'
+        );
+        $array_home = array(
+            'homeData' => array(
+                'assign_to_me' => $this->block_views($assign_to_me),
+                'my_watched' => $this->block_views($my_watched),
+            )
+        );
+        $this->content($this->load->view('home/index', $array_home, TRUE));
         $this->view = "layouts/1column";
         $this->layout = "layouts/index";
     }

@@ -137,3 +137,7 @@
             return $language;
         }
     }
+
+    function get_available($available=null){
+        return isset($available) && !is_null($available) ? $available : "";
+    }

@@ -2,24 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed852180-b670-4a18-b2a0-b976df8df006" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/libraries/encryption.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/notify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/bugtracker/js/pc.user.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/modules/bugtracker/models/user_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/core/MY_Controller.php" afterPath="$PROJECT_DIR$/application/core/MY_Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/bugtracker/js/bugtracker.js" afterPath="$PROJECT_DIR$/assets/bugtracker/js/bugtracker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/config.php" afterPath="$PROJECT_DIR$/application/config/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/bugtracker/views/login/form.php" afterPath="$PROJECT_DIR$/application/modules/bugtracker/views/login/form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/bugtracker/views/layouts/index.php" afterPath="$PROJECT_DIR$/application/modules/bugtracker/views/layouts/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/bugtracker/controllers/login.php" afterPath="$PROJECT_DIR$/application/modules/bugtracker/controllers/login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/language/en/bugtracker/login_lang.php" afterPath="$PROJECT_DIR$/application/language/en/bugtracker/login_lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/bugtracker/css/stylesheet.css" afterPath="$PROJECT_DIR$/assets/bugtracker/css/stylesheet.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\assets\bugtracker\js\pc.login.js" afterPath="$PROJECT_DIR$/assets/bugtracker/js/config.js" />
     </list>
     <ignored path="devtimeless.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="ed852180-b670-4a18-b2a0-b976df8df006" time="1388124995905" ignored="false" />
+    <file path="/Dummy.txt" changelist="ed852180-b670-4a18-b2a0-b976df8df006" time="1388371403044" ignored="false" />
     <file path="/Tracker_Controller.php" changelist="ed852180-b670-4a18-b2a0-b976df8df006" time="1388033883434" ignored="false" />
     <file path="/home.php" changelist="ed852180-b670-4a18-b2a0-b976df8df006" time="1388133459977" ignored="false" />
     <file path="/routes.php" changelist="ed852180-b670-4a18-b2a0-b976df8df006" time="1388027797351" ignored="false" />
@@ -69,7 +56,7 @@
       <file leaf-file-name="home.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/modules/bugtracker/controllers/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="38" selection-start="428" selection-end="428" vertical-scroll-proportion="-12.423077">
+            <state line="19" column="38" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -78,7 +65,7 @@
       <file leaf-file-name="login.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/modules/bugtracker/controllers/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="73" selection-start="978" selection-end="978" vertical-scroll-proportion="0.6035503">
+            <state line="39" column="13" selection-start="1291" selection-end="1291" vertical-scroll-proportion="0.7827627">
               <folding />
             </state>
           </provider>
@@ -87,7 +74,7 @@
       <file leaf-file-name="encryption.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/libraries/encryption.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="24" selection-start="463" selection-end="472" vertical-scroll-proportion="-10.461538">
+            <state line="16" column="24" selection-start="463" selection-end="472" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -96,7 +83,7 @@
       <file leaf-file-name="user_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/modules/bugtracker/models/user_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="21" selection-start="870" selection-end="870" vertical-scroll-proportion="-18.961538">
+            <state line="29" column="21" selection-start="870" selection-end="870" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -105,10 +92,8 @@
       <file leaf-file-name="MY_Model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/libraries/MY_Model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="381" column="39" selection-start="11311" selection-end="11318" vertical-scroll-proportion="-18.352942">
-              <folding>
-                <element signature="e#6#1383#0" expanded="true" />
-              </folding>
+            <state line="381" column="39" selection-start="11311" selection-end="11318" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -116,7 +101,7 @@
       <file leaf-file-name="MY_Controller.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/core/MY_Controller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="115" column="55" selection-start="3452" selection-end="3456" vertical-scroll-proportion="44.46154">
+            <state line="115" column="55" selection-start="3452" selection-end="3456" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -125,7 +110,7 @@
       <file leaf-file-name="SYS_Controller.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/core/SYS_Controller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -134,7 +119,7 @@
       <file leaf-file-name="auth.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/modules/sys/controllers/auth.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="35" selection-start="111" selection-end="146" vertical-scroll-proportion="-1.3076923">
+            <state line="2" column="35" selection-start="111" selection-end="146" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -143,7 +128,7 @@
       <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/config/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="359" column="40" selection-start="12769" selection-end="12769" vertical-scroll-proportion="-26.615385">
+            <state line="359" column="40" selection-start="12769" selection-end="12769" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -219,7 +204,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -594,14 +578,17 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
-    <property name="options.searchVisible" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../denver" />
+    <property name="FullScreen" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -656,7 +643,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1782284" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18036287" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -734,65 +721,51 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/assets/bugtracker/js/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="3" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="13" column="3" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/bugtracker/css/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="3" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="25" column="3" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/bugtracker/js/bugtracker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="2" column="0" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/libraries/Rest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.0863905">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.0863905" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="64" selection-start="641" selection-end="650" vertical-scroll-proportion="-7.509804">
-          <folding />
-        </state>
+        <state line="24" column="64" selection-start="641" selection-end="650" vertical-scroll-proportion="-7.509804" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="359" column="40" selection-start="12769" selection-end="12769" vertical-scroll-proportion="-26.615385">
+        <state line="359" column="40" selection-start="12769" selection-end="12769" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/sys/models/chat_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="353" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="353" vertical-scroll-proportion="-0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/libraries/MY_Model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="381" column="39" selection-start="11311" selection-end="11318" vertical-scroll-proportion="-18.352942">
-          <folding>
-            <element signature="e#6#1383#0" expanded="true" />
-          </folding>
+        <state line="381" column="39" selection-start="11311" selection-end="11318" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/core/MY_Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="55" selection-start="3452" selection-end="3456" vertical-scroll-proportion="44.46154">
+        <state line="115" column="55" selection-start="3452" selection-end="3456" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -806,21 +779,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/sys/controllers/auth.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="35" selection-start="111" selection-end="146" vertical-scroll-proportion="-1.3076923">
+        <state line="2" column="35" selection-start="111" selection-end="146" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/libraries/encryption.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="24" selection-start="463" selection-end="472" vertical-scroll-proportion="-10.461538">
+        <state line="16" column="24" selection-start="463" selection-end="472" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/bugtracker/models/user_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="21" selection-start="870" selection-end="870" vertical-scroll-proportion="-18.961538">
+        <state line="29" column="21" selection-start="870" selection-end="870" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -834,14 +807,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/bugtracker/controllers/home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="38" selection-start="428" selection-end="428" vertical-scroll-proportion="-12.423077">
+        <state line="19" column="38" selection-start="428" selection-end="428" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/modules/bugtracker/controllers/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="73" selection-start="978" selection-end="978" vertical-scroll-proportion="0.6035503">
+        <state line="39" column="13" selection-start="1291" selection-end="1291" vertical-scroll-proportion="0.7827627">
           <folding />
         </state>
       </provider>

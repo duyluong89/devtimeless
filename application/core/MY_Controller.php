@@ -290,6 +290,10 @@ class MY_Controller extends MX_Controller
     		$this->data['right'] .= $data;
     	else $this->data['right'] = $data;
     }
+
+    public function block_views($data=array()){
+        return $this->load->view("layouts/block",$data,true);
+    }
 }
 require_once 'SYS_Controller.php';
 require_once 'Tracker_Controller.php';

@@ -8,4 +8,6 @@
  */
 $lang = array(
     'lbl_assign_to_me'          =>  'Assign to me',
+    'lbl_my_watched'            =>  'My watched',
+    'lbl_last_comment'          =>  'Last Comment'
 );

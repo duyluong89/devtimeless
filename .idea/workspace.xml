@@ -2,23 +2,288 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed852180-b670-4a18-b2a0-b976df8df006" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/language/en/bugtracker/block_lang.php" afterPath="$PROJECT_DIR$/application/language/en/bugtracker/block_lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/bugtracker/controllers/home.php" afterPath="$PROJECT_DIR$/application/modules/bugtracker/controllers/home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/bugtracker/views/home/index.php" afterPath="$PROJECT_DIR$/application/modules/bugtracker/views/home/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/bugtracker/css/stylesheet.css" afterPath="$PROJECT_DIR$/assets/bugtracker/css/stylesheet.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/sys/css/custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/modules/sys/views/dashboard/jquery.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/modules/sys/views/layouts/jquery.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/modules/sys/views/user/jquery.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/sys/controllers/dashboard.php" afterPath="$PROJECT_DIR$/application/modules/sys/controllers/dashboard.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/dev/controllers/home.php" afterPath="$PROJECT_DIR$/application/modules/dev/controllers/home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/sys/views/dashboard/index.php" afterPath="$PROJECT_DIR$/application/modules/sys/views/dashboard/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/sys/views/layouts/index.php" afterPath="$PROJECT_DIR$/application/modules/sys/views/layouts/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/sys/views/user/list.php" afterPath="$PROJECT_DIR$/application/modules/sys/views/user/list.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/sys/views/layouts/nav.php" afterPath="$PROJECT_DIR$/application/modules/sys/views/layouts/nav.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/modules/sys/controllers/user.php" afterPath="$PROJECT_DIR$/application/modules/sys/controllers/user.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\avatars\avatar.png" afterPath="$PROJECT_DIR$/ace admin theme/assets/avatars/avatar.png" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\avatars\avatar1.png" afterPath="$PROJECT_DIR$/ace admin theme/assets/avatars/avatar1.png" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\avatars\avatar2.png" afterPath="$PROJECT_DIR$/ace admin theme/assets/avatars/avatar2.png" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\avatars\avatar3.png" afterPath="$PROJECT_DIR$/ace admin theme/assets/avatars/avatar3.png" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\avatars\avatar4.png" afterPath="$PROJECT_DIR$/ace admin theme/assets/avatars/avatar4.png" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\avatars\avatar5.png" afterPath="$PROJECT_DIR$/ace admin theme/assets/avatars/avatar5.png" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\avatars\profile-pic.jpg" afterPath="$PROJECT_DIR$/ace admin theme/assets/avatars/profile-pic.jpg" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\avatars\user.jpg" afterPath="$PROJECT_DIR$/ace admin theme/assets/avatars/user.jpg" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\css\ace-ie.min.css" afterPath="$PROJECT_DIR$/ace admin theme/assets/css/ace-ie.min.css" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\css\ace-responsive.min.css" afterPath="$PROJECT_DIR$/ace admin theme/assets/css/ace-responsive.min.css" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\css\ace-skins.min.css" afterPath="$PROJECT_DIR$/ace admin theme/assets/css/ace-skins.min.css" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\css\ace.min.css" afterPath="$PROJECT_DIR$/ace admin theme/assets/css/ace.min.css" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\css\bootstrap-editable.css" afterPath="$PROJECT_DIR$/ace admin theme/assets/css/bootstrap-editable.css" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\css\bootstrap-responsive.min.css" afterPath="$PROJECT_DIR$/ace admin theme/assets/css/bootstrap-responsive.min.css" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\css\bootstrap-timepicker.css" afterPath="$PROJECT_DIR$/ace admin theme/assets/css/bootstrap-timepicker.css" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\css\bootstrap.min.css" afterPath="$PROJECT_DIR$/ace admin theme/assets/css/bootstrap.min.css" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\css\chosen-sprite.png" afterPath="$PROJECT_DIR$/ace admin theme/assets/css/chosen-sprite.png" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\css\chosen-sprite@2x.png" afterPath="$PROJECT_DIR$/ace admin theme/assets/css/chosen-sprite@2x.png" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\css\chosen.css" afterPath="$PROJECT_DIR$/ace admin theme/assets/css/chosen.css" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\css\colorbox.css" afterPath="$PROJECT_DIR$/ace admin theme/assets/css/colorbox.css" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\css\colorpicker.css" afterPath="$PROJECT_DIR$/ace admin theme/assets/css/colorpicker.css" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\css\datepicker.css" afterPath="$PROJECT_DIR$/ace admin theme/assets/css/datepicker.css" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\css\daterangepicker.css" afterPath="$PROJECT_DIR$/ace admin theme/assets/css/daterangepicker.css" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\css\font-awesome-ie7.min.css" afterPath="$PROJECT_DIR$/ace admin theme/assets/css/font-awesome-ie7.min.css" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\css\font-awesome.min.css" afterPath="$PROJECT_DIR$/ace admin theme/assets/css/font-awesome.min.css" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\css\fullcalendar.css" afterPath="$PROJECT_DIR$/ace admin theme/assets/css/fullcalendar.css" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\css\images\border.png" afterPath="$PROJECT_DIR$/ace admin theme/assets/css/images/border.png" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\css\images\controls.png" afterPath="$PROJECT_DIR$/ace admin theme/assets/css/images/controls.png" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\css\images\loading.gif" afterPath="$PROJECT_DIR$/ace admin theme/assets/css/images/loading.gif" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\css\images\loading_background.png" afterPath="$PROJECT_DIR$/ace admin theme/assets/css/images/loading_background.png" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\css\images\overlay.png" afterPath="$PROJECT_DIR$/ace admin theme/assets/css/images/overlay.png" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\css\img\alpha.png" afterPath="$PROJECT_DIR$/ace admin theme/assets/css/img/alpha.png" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\css\img\hue.png" afterPath="$PROJECT_DIR$/ace admin theme/assets/css/img/hue.png" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\css\img\saturation.png" afterPath="$PROJECT_DIR$/ace admin theme/assets/css/img/saturation.png" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\css\jquery-ui-1.10.3.custom.min.css" afterPath="$PROJECT_DIR$/ace admin theme/assets/css/jquery-ui-1.10.3.custom.min.css" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\css\jquery.gritter.css" afterPath="$PROJECT_DIR$/ace admin theme/assets/css/jquery.gritter.css" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\css\prettify.css" afterPath="$PROJECT_DIR$/ace admin theme/assets/css/prettify.css" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\css\select2-spinner.gif" afterPath="$PROJECT_DIR$/ace admin theme/assets/css/select2-spinner.gif" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\css\select2.css" afterPath="$PROJECT_DIR$/ace admin theme/assets/css/select2.css" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\css\select2.png" afterPath="$PROJECT_DIR$/ace admin theme/assets/css/select2.png" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\css\select2x2.png" afterPath="$PROJECT_DIR$/ace admin theme/assets/css/select2x2.png" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\font\fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/ace admin theme/assets/font/fontawesome-webfont.svg" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\font\fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/ace admin theme/assets/font/fontawesome-webfont.woff" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\font\fontawesome-webfont_2d2816fe.eot" afterPath="$PROJECT_DIR$/ace admin theme/assets/font/fontawesome-webfont_2d2816fe.eot" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\font\fontawesome-webfont_aea8981c.eot" afterPath="$PROJECT_DIR$/ace admin theme/assets/font/fontawesome-webfont_aea8981c.eot" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\font\fontawesome-webfont_aea8981c.ttf" afterPath="$PROJECT_DIR$/ace admin theme/assets/font/fontawesome-webfont_aea8981c.ttf" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\font\fontawesome-webfont_aea8981c.woff" afterPath="$PROJECT_DIR$/ace admin theme/assets/font/fontawesome-webfont_aea8981c.woff" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\images\gallery\image-1.jpg" afterPath="$PROJECT_DIR$/ace admin theme/assets/images/gallery/image-1.jpg" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\images\gallery\image-2.jpg" afterPath="$PROJECT_DIR$/ace admin theme/assets/images/gallery/image-2.jpg" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\images\gallery\image-3.jpg" afterPath="$PROJECT_DIR$/ace admin theme/assets/images/gallery/image-3.jpg" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\images\gallery\image-4.jpg" afterPath="$PROJECT_DIR$/ace admin theme/assets/images/gallery/image-4.jpg" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\images\gallery\image-5.jpg" afterPath="$PROJECT_DIR$/ace admin theme/assets/images/gallery/image-5.jpg" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\images\gallery\image-6.jpg" afterPath="$PROJECT_DIR$/ace admin theme/assets/images/gallery/image-6.jpg" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\images\gallery\thumb-1.jpg" afterPath="$PROJECT_DIR$/ace admin theme/assets/images/gallery/thumb-1.jpg" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\images\gallery\thumb-2.jpg" afterPath="$PROJECT_DIR$/ace admin theme/assets/images/gallery/thumb-2.jpg" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\images\gallery\thumb-3.jpg" afterPath="$PROJECT_DIR$/ace admin theme/assets/images/gallery/thumb-3.jpg" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\images\gallery\thumb-4.jpg" afterPath="$PROJECT_DIR$/ace admin theme/assets/images/gallery/thumb-4.jpg" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\images\gallery\thumb-5.jpg" afterPath="$PROJECT_DIR$/ace admin theme/assets/images/gallery/thumb-5.jpg" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\images\gallery\thumb-6.jpg" afterPath="$PROJECT_DIR$/ace admin theme/assets/images/gallery/thumb-6.jpg" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\images\gritter-light.png.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/images/gritter-light.png.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\images\gritter.png.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/images/gritter.png.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\images\ie-spacer.gif.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/images/ie-spacer.gif.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\img\clear.png.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/img/clear.png.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\img\glyphicons-halflings-white.png" afterPath="$PROJECT_DIR$/ace admin theme/assets/img/glyphicons-halflings-white.png" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\img\glyphicons-halflings.png" afterPath="$PROJECT_DIR$/ace admin theme/assets/img/glyphicons-halflings.png" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\img\loading.gif.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/img/loading.gif.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\1.10.2.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/1.10.2.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\1.10.3.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/1.10.3.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\1.3.1.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/1.3.1.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\1.6.1.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/1.6.1.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\1.9.4.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/1.9.4.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\2.0.3.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/2.0.3.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\4.0em.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/4.0em.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\@2x.$1.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/@2x.$1.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\Microsoft.XMLDOM.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/Microsoft.XMLDOM.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\Microsoft.XMLHTTP.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/Microsoft.XMLHTTP.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\Please enter a valid time in 12-hour am\pm format.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/Please enter a valid time in 12-hour am/pm format.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\a.chzn-single.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/a.chzn-single.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\a.close.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/a.close.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\ace-elements.min.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/ace-elements.min.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\ace.min.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/ace.min.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\additional-methods.min.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/additional-methods.min.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\autosize.destroy.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/autosize.destroy.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\autosize.resize.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/autosize.resize.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\autosize.resizeIncludeStyle.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/autosize.resizeIncludeStyle.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\beforeactivate._change.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/beforeactivate._change.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\blur.inputlimiter.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/blur.inputlimiter.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\blur.mask.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/blur.mask.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\blur.validate-equalTo.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/blur.validate-equalTo.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\bootbox.min.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/bootbox.min.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\bootstrap-colorpicker.min.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/bootstrap-colorpicker.min.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\bootstrap-tag.min.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/bootstrap-tag.min.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\bootstrap-wysiwyg.min.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/bootstrap-wysiwyg.min.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\bootstrap.min.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/bootstrap.min.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\change.DT.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/change.DT.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\change._change.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/change._change.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\change.ace_inner_call.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/change.ace_inner_call.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\change.select2.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/change.select2.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\chosen.jquery.min.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/chosen.jquery.min.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\click.DT.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/click.DT.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\click._change.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/click._change.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\click._submit keypress._submit.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/click._submit keypress._submit.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\click.affix.data-api.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/click.affix.data-api.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\click.alert.data-api.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/click.alert.data-api.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\click.button.data-api.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/click.button.data-api.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\click.carousel.data-api.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/click.carousel.data-api.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\click.collapse.data-api.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/click.collapse.data-api.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\click.dismiss.modal.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/click.dismiss.modal.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\click.dropdown.data-api.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/click.dropdown.data-api.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\click.modal.data-api.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/click.modal.data-api.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\click.tab.data-api.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/click.tab.data-api.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\date-time\2.0.0.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/date-time/2.0.0.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\date-time\blur.timepicker.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/date-time/blur.timepicker.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\date-time\bootstrap-datepicker.min.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/date-time/bootstrap-datepicker.min.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\date-time\bootstrap-timepicker.min.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/date-time/bootstrap-timepicker.min.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\date-time\button.applyBtn.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/date-time/button.applyBtn.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\date-time\button.clearBtn.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/date-time/button.clearBtn.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\date-time\changeTime.timepicker.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/date-time/changeTime.timepicker.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\date-time\click.timepicker.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/date-time/click.timepicker.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\date-time\daterangepicker.min.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/date-time/daterangepicker.min.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\date-time\focus.timepicker.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/date-time/focus.timepicker.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\date-time\hide.timepicker.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/date-time/hide.timepicker.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\date-time\input.bootstrap-timepicker-hour.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/date-time/input.bootstrap-timepicker-hour.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\date-time\input.bootstrap-timepicker-meridian.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/date-time/input.bootstrap-timepicker-meridian.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\date-time\input.bootstrap-timepicker-minute.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/date-time/input.bootstrap-timepicker-minute.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\date-time\input.bootstrap-timepicker-second.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/date-time/input.bootstrap-timepicker-second.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\date-time\keydown.timepicker.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/date-time/keydown.timepicker.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\date-time\mm\dd\yyyy.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/date-time/mm/dd/yyyy.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\date-time\moment.min.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/date-time/moment.min.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\date-time\mousedown.timepicker.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/date-time/mousedown.timepicker.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\date-time\select.monthselect.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/date-time/select.monthselect.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\date-time\select.yearselect.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/date-time/select.yearselect.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\date-time\show.timepicker.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/date-time/show.timepicker.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\date-time\span.bootstrap-timepicker-hour.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/date-time/span.bootstrap-timepicker-hour.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\date-time\span.bootstrap-timepicker-meridian.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/date-time/span.bootstrap-timepicker-meridian.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\date-time\span.bootstrap-timepicker-minute.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/date-time/span.bootstrap-timepicker-minute.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\date-time\span.bootstrap-timepicker-second.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/date-time/span.bootstrap-timepicker-second.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\date-time\td.available.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/date-time/td.available.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\date-time\tfoot th.today.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/date-time/tfoot th.today.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\ddd M\d.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/ddd M/d.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\dddd M\d.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/dddd M/d.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\div.chzn-drop.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/div.chzn-drop.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\div.chzn-search.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/div.chzn-search.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\div.dataTables_filter.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/div.dataTables_filter.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\div.fc-day-content div.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/div.fc-day-content div.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\div.fc-event-time.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/div.fc-event-time.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\div.fc-event-title.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/div.fc-event-title.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\div.ui-draggable-iframeFix.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/div.ui-draggable-iframeFix.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\excanvas.min.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/excanvas.min.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\flot\0.8.1.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/flot/0.8.1.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\flot\jquery.flot.min.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/flot/jquery.flot.min.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\flot\jquery.flot.pie.min.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/flot/jquery.flot.pie.min.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\flot\jquery.flot.resize.min.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/flot/jquery.flot.resize.min.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\focus.mask.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/focus.mask.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\focus.typeahead.data-api.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/focus.typeahead.data-api.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\focusin.modal.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/focusin.modal.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\fuelux\button.btn-next.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/fuelux/button.btn-next.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\fuelux\button.btn-prev.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/fuelux/button.btn-prev.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\fuelux\data\fuelux.tree-sampledata.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/fuelux/data/fuelux.tree-sampledata.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\fuelux\fuelux.spinner.min.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/fuelux/fuelux.spinner.min.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\fuelux\fuelux.tree.min.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/fuelux/fuelux.tree.min.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\fuelux\fuelux.wizard.min.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/fuelux/fuelux.wizard.min.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\fuelux\li.complete.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/fuelux/li.complete.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\fuelux\mousedown.spinner.data-api.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/fuelux/mousedown.spinner.data-api.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\fuelux\mousedown.wizard.data-api.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/fuelux/mousedown.wizard.data-api.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\fuelux\span.badge.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/fuelux/span.badge.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\fullcalendar.min.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/fullcalendar.min.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\in.tag.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/in.tag.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\input.autosize keyup.autosize.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/input.autosize keyup.autosize.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\input.autosize.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/input.autosize.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\input.select2-input.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/input.select2-input.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\invalid-form.validate.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/invalid-form.validate.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\jquery-1.10.2.min.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/jquery-1.10.2.min.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\jquery-2.0.3.min.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/jquery-2.0.3.min.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\jquery-ui-1.10.3.custom.min.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/jquery-ui-1.10.3.custom.min.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\jquery.autosize-min.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/jquery.autosize-min.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\jquery.colorbox-min.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/jquery.colorbox-min.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\jquery.dataTables.bootstrap.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/jquery.dataTables.bootstrap.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\jquery.dataTables.min.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/jquery.dataTables.min.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\jquery.easy-pie-chart.min.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/jquery.easy-pie-chart.min.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\jquery.gritter.min.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/jquery.gritter.min.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\jquery.hotkeys.min.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/jquery.hotkeys.min.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\jquery.inputlimiter.1.3.1.min.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/jquery.inputlimiter.1.3.1.min.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\jquery.knob.min.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/jquery.knob.min.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\jquery.maskedinput.min.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/jquery.maskedinput.min.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\jquery.mobile.custom.min.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/jquery.mobile.custom.min.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\jquery.slimscroll.min.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/jquery.slimscroll.min.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\jquery.sparkline.min.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/jquery.sparkline.min.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\jquery.ui.touch-punch.min.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/jquery.ui.touch-punch.min.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\jquery.validate.min.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/jquery.validate.min.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\keydown.dropdown.data-api.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/keydown.dropdown.data-api.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\keydown.mask.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/keydown.mask.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\keypress.DT.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/keypress.DT.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\keypress.inputlimiter.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/keypress.inputlimiter.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\keypress.mask.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/keypress.mask.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\keyup.DT.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/keyup.DT.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\keyup.dismiss.modal.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/keyup.dismiss.modal.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\keyup.inputlimiter.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/keyup.inputlimiter.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\keyup.k.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/keyup.k.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\lang-in.tag.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/lang-in.tag.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\lang-uq.val.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/lang-uq.val.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\li.active-result.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/li.active-result.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\li.dropdown.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/li.dropdown.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\li.no-results.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/li.no-results.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\li.search-choice.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/li.search-choice.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\li.search-field.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/li.search-field.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\li.select2-more-results.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/li.select2-more-results.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\markdown\URL\Link.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/markdown/URL/Link.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\markdown\bootstrap-markdown.min.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/markdown/bootstrap-markdown.min.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\markdown\click.markdown.data-api.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/markdown/click.markdown.data-api.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\markdown\markdown.min.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/markdown/markdown.min.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\mousemove.jqs.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/mousemove.jqs.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\mousemove.k mouseup.k keyup.k.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/mousemove.k mouseup.k keyup.k.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\mousemove.k.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/mousemove.k.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\mouseup.k mousemove.k keyup.k.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/mouseup.k mousemove.k keyup.k.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\mouseup.k.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/mouseup.k.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\prettify.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/prettify.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\propertychange._change.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/propertychange._change.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\propertychange.autosize.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/propertychange.autosize.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\propertychange.select2 DOMAttrModified.select2.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/propertychange.select2 DOMAttrModified.select2.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\resize.autosize.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/resize.autosize.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\resize.jqs scroll.jqs.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/resize.jqs scroll.jqs.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\scroll.affix.data-api.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/scroll.affix.data-api.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\scroll.droppable.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/scroll.droppable.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\scroll.scroll-spy.data-api.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/scroll.scroll-spy.data-api.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\select2.min.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/select2.min.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\selectstart.DT.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/selectstart.DT.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\selectstart.ui.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/selectstart.ui.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\spin.min.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/spin.min.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\submit._submit.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/submit._submit.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\th.fc-agenda-gutter.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/th.fc-agenda-gutter.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\th.fc-week-number.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/th.fc-week-number.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\touchend.k.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/touchend.k.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\touchmove.k touchend.k.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/touchmove.k touchend.k.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\touchmove.k.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/touchmove.k.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\ui.draggable.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/ui.draggable.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\ui.droppable.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/ui.droppable.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\ui.mouse.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/ui.mouse.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\ui.resizable.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/ui.resizable.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\ui.selectable.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/ui.selectable.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\ui.slider.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/ui.slider.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\ui.sortable.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/ui.sortable.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\ul.chzn-choices.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/ul.chzn-choices.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\ul.chzn-results.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/ul.chzn-results.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\uq.val.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/uq.val.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\x-editable\Object.keys called on a non-object.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/x-editable/Object.keys called on a non-object.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\x-editable\ace-editable.min.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/x-editable/ace-editable.min.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\x-editable\bootstrap-editable.min.js" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/x-editable/bootstrap-editable.min.js" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\x-editable\change.editable.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/x-editable/change.editable.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\x-editable\click.editable.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/x-editable/click.editable.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\x-editable\div.editable-input.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/x-editable/div.editable-input.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\x-editable\focus.datepicker.data-api click.datepicker.data-api.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/x-editable/focus.datepicker.data-api click.datepicker.data-api.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\x-editable\keydown.editable.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/x-editable/keydown.editable.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\x-editable\keyup.editable.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/x-editable/keyup.editable.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\x-editable\mm\dd\yyyy.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/x-editable/mm/dd/yyyy.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\x-editable\save.internal.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/x-editable/save.internal.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\x-editable\tfoot th.clear.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/x-editable/tfoot th.clear.html" />
+      <change type="MOVED" beforePath="D:\xampp\htdocs\devtimeless\ace admin theme\assets_admin\js\x-editable\tfoot th.today.html" afterPath="$PROJECT_DIR$/ace admin theme/assets/js/x-editable/tfoot th.today.html" />
     </list>
     <ignored path="devtimeless.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="ed852180-b670-4a18-b2a0-b976df8df006" time="1388635495623" ignored="false" />
+    <file path="/Dummy.txt" changelist="ed852180-b670-4a18-b2a0-b976df8df006" time="1388734688506" ignored="false" />
     <file path="/Tracker_Controller.php" changelist="ed852180-b670-4a18-b2a0-b976df8df006" time="1388033883434" ignored="false" />
-    <file path="/home.php" changelist="ed852180-b670-4a18-b2a0-b976df8df006" time="1388637434717" ignored="false" />
+    <file path="/home.php" changelist="ed852180-b670-4a18-b2a0-b976df8df006" time="1388740563038" ignored="false" />
     <file path="/routes.php" changelist="ed852180-b670-4a18-b2a0-b976df8df006" time="1388027797351" ignored="false" />
     <file path="/login.php" changelist="ed852180-b670-4a18-b2a0-b976df8df006" time="1388136491548" ignored="false" />
     <file path="/nav.php" changelist="ed852180-b670-4a18-b2a0-b976df8df006" time="1388029959542" ignored="false" />
     <file path="/view.php" changelist="ed852180-b670-4a18-b2a0-b976df8df006" time="1388033927828" ignored="false" />
     <file path="/form.php" changelist="ed852180-b670-4a18-b2a0-b976df8df006" time="1388041088348" ignored="false" />
-    <file path="/index.php" changelist="ed852180-b670-4a18-b2a0-b976df8df006" time="1388636656546" ignored="false" />
+    <file path="/index.php" changelist="ed852180-b670-4a18-b2a0-b976df8df006" time="1388742706858" ignored="false" />
     <file path="/stylesheet.css" changelist="ed852180-b670-4a18-b2a0-b976df8df006" time="1388637089464" ignored="false" />
     <file path="/bugtracker.js" changelist="ed852180-b670-4a18-b2a0-b976df8df006" time="1388128350007" ignored="false" />
     <file path="/login_lang.php" changelist="ed852180-b670-4a18-b2a0-b976df8df006" time="1388033394644" ignored="false" />
@@ -30,6 +295,11 @@
     <file path="/config.php" changelist="ed852180-b670-4a18-b2a0-b976df8df006" time="1388130154696" ignored="false" />
     <file path="/user_model.php" changelist="ed852180-b670-4a18-b2a0-b976df8df006" time="1388132960597" ignored="false" />
     <file path="/block_lang.php" changelist="ed852180-b670-4a18-b2a0-b976df8df006" time="1388637278163" ignored="false" />
+    <file path="/list.php" changelist="ed852180-b670-4a18-b2a0-b976df8df006" time="1388743759146" ignored="false" />
+    <file path="/jquery.php" changelist="ed852180-b670-4a18-b2a0-b976df8df006" time="1388738890884" ignored="false" />
+    <file path="/user.php" changelist="ed852180-b670-4a18-b2a0-b976df8df006" time="1388740748757" ignored="false" />
+    <file path="/dashboard.php" changelist="ed852180-b670-4a18-b2a0-b976df8df006" time="1388740927369" ignored="false" />
+    <file path="/custom.css" changelist="ed852180-b670-4a18-b2a0-b976df8df006" time="1388743541863" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,91 +319,67 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pc.user.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/bugtracker/js/pc.user.js">
+      <file leaf-file-name="user.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/modules/sys/controllers/user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="61" selection-start="746" selection-end="746" vertical-scroll-proportion="0.0">
+            <state line="12" column="81" selection-start="299" selection-end="341" vertical-scroll-proportion="-7.8461537">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/modules/bugtracker/controllers/home.php">
+      <file leaf-file-name="list.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/modules/sys/views/user/list.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="54" selection-start="897" selection-end="897" vertical-scroll-proportion="-14.269231">
+            <state line="27" column="12" selection-start="765" selection-end="765" vertical-scroll-proportion="0.4214876">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="block_lang.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/language/en/bugtracker/block_lang.php">
+      <file leaf-file-name="ace.min.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/sys/css/ace.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="49" selection-start="282" selection-end="282" vertical-scroll-proportion="-6.5384617">
+            <state line="0" column="199718" selection-start="199707" selection-end="199718" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="global_lang.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/language/en/bugtracker/global_lang.php">
+      <file leaf-file-name="jquery.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/modules/sys/views/user/jquery.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login_lang.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/language/en/bugtracker/login_lang.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="35" column="9" selection-start="1160" selection-end="1160" vertical-scroll-proportion="-22.884615">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/modules/bugtracker/views/home/index.php">
+        <entry file="file://$PROJECT_DIR$/application/modules/sys/views/layouts/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="6" selection-start="75" selection-end="75" vertical-scroll-proportion="-1.9615384">
+            <state line="30" column="84" selection-start="1234" selection-end="1234" vertical-scroll-proportion="-10.0">
+              <folding>
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1388742707303" expanded="true" signature="4842:4950" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/sys/css/custom.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="53" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stylesheet.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/bugtracker/css/stylesheet.css">
+      <file leaf-file-name="dashboard.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/modules/sys/controllers/dashboard.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="170" column="27" selection-start="3017" selection-end="3017" vertical-scroll-proportion="0.6494845">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="encryption.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/libraries/encryption.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="24" selection-start="463" selection-end="472" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_model.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/modules/bugtracker/models/user_model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="21" selection-start="870" selection-end="870" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="auth.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/modules/sys/controllers/auth.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="35" selection-start="111" selection-end="146" vertical-scroll-proportion="0.0">
+            <state line="13" column="1" selection-start="367" selection-end="367" vertical-scroll-proportion="-8.5">
               <folding />
             </state>
           </provider>
@@ -157,22 +403,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/assets/bugtracker/js/pc.login.js" />
-        <option value="$PROJECT_DIR$/application/language/en/bugtracker/login_lang.php" />
-        <option value="$PROJECT_DIR$/application/modules/bugtracker/views/layouts/index.php" />
-        <option value="$PROJECT_DIR$/assets/bugtracker/js/config.js" />
-        <option value="$PROJECT_DIR$/assets/js/notify.js" />
-        <option value="$PROJECT_DIR$/assets/bugtracker/js/bugtracker.js" />
-        <option value="$PROJECT_DIR$/application/config/config.php" />
-        <option value="$PROJECT_DIR$/application/core/MY_Controller.php" />
-        <option value="$PROJECT_DIR$/application/libraries/encryption.php" />
-        <option value="$PROJECT_DIR$/application/modules/bugtracker/models/user_model.php" />
-        <option value="$PROJECT_DIR$/assets/bugtracker/js/pc.user.js" />
-        <option value="$PROJECT_DIR$/application/modules/bugtracker/controllers/login.php" />
-        <option value="$PROJECT_DIR$/application/modules/bugtracker/views/home/index.php" />
         <option value="$PROJECT_DIR$/application/language/en/bugtracker/block_lang.php" />
         <option value="$PROJECT_DIR$/application/modules/bugtracker/controllers/home.php" />
         <option value="$PROJECT_DIR$/assets/bugtracker/css/stylesheet.css" />
+        <option value="$PROJECT_DIR$/application/modules/sys/views/dashboard/index.php" />
+        <option value="$PROJECT_DIR$/application/modules/sys/views/layouts/nav.php" />
+        <option value="$PROJECT_DIR$/ace admin theme/tables.html" />
+        <option value="$PROJECT_DIR$/application/modules/sys/views/dashboard/jquery.php" />
+        <option value="$PROJECT_DIR$/application/modules/bugtracker/views/layouts/jquery.php" />
+        <option value="$PROJECT_DIR$/application/modules/dev/controllers/home.php" />
+        <option value="$PROJECT_DIR$/application/modules/sys/views/user/jquery.php" />
+        <option value="$PROJECT_DIR$/application/modules/sys/controllers/user.php" />
+        <option value="$PROJECT_DIR$/application/modules/sys/controllers/dashboard.php" />
+        <option value="$PROJECT_DIR$/assets/sys/css/ace.min.css" />
+        <option value="$PROJECT_DIR$/application/modules/sys/views/layouts/index.php" />
+        <option value="$PROJECT_DIR$/assets/sys/css/custom.css" />
+        <option value="$PROJECT_DIR$/application/modules/sys/views/user/list.php" />
       </list>
     </option>
   </component>
@@ -255,7 +501,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="sys" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -273,51 +519,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bugtracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devtimeless" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devtimeless" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bugtracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devtimeless" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devtimeless" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bugtracker" />
+              <option name="myItemId" value="sys" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -353,11 +555,93 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devtimeless" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devtimeless" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devtimeless" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devtimeless" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devtimeless" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devtimeless" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -428,114 +712,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devtimeless" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devtimeless" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bugtracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devtimeless" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devtimeless" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bugtracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devtimeless" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devtimeless" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bugtracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devtimeless" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devtimeless" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bugtracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -574,72 +750,6 @@
               <option name="myItemId" value="language" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="en" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devtimeless" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devtimeless" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="language" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="en" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bugtracker" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devtimeless" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devtimeless" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="language" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devtimeless" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="devtimeless" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -652,15 +762,28 @@
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../denver" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="PublishConfig">
+    <servers>
+      <server id="8cc01182-110a-4e4b-b7b7-9ae694135bd4">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+    </servers>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\devtimeless\application\modules\sys\views\user" />
       <recent name="D:\xampp\htdocs\devtimeless\assets\bugtracker\images" />
       <recent name="D:\xampp\htdocs\devtimeless\application\modules\bugtracker" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\devtimeless\application\modules\sys\views\layouts" />
       <recent name="D:\xampp\htdocs\devtimeless\assets\bugtracker\js" />
     </key>
   </component>
@@ -670,6 +793,9 @@
       <method />
     </configuration>
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -708,7 +834,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18249734" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18463181" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -784,112 +910,117 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/modules/sys/models/chat_model.php">
+    <entry file="file://$PROJECT_DIR$/application/modules/sys/controllers/auth.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="353" vertical-scroll-proportion="-0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="7.3076925">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/libraries/MY_Model.php">
+    <entry file="file://$PROJECT_DIR$/application/modules/dev/views/layouts/1column.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="381" column="39" selection-start="11311" selection-end="11318" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/dev/views/layouts/2columns-left.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/dev/views/layouts/2columns-right.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/dev/views/layouts/3columns.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/dev/views/layouts/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="37" selection-start="1860" selection-end="1866" vertical-scroll-proportion="-21.461538">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/core/MY_Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="55" selection-start="3452" selection-end="3456" vertical-scroll-proportion="0.0">
+        <state line="178" column="19" selection-start="5483" selection-end="5487" vertical-scroll-proportion="-0.65384614">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/modules/dev/controllers/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="7" selection-start="156" selection-end="156" vertical-scroll-proportion="0.18063754">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/core/SYS_Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="1" column="33" selection-start="39" selection-end="39" vertical-scroll-proportion="0.020070838">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/sys/controllers/auth.php">
+    <entry file="file://$PROJECT_DIR$/application/modules/sys/views/user/jquery.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="35" selection-start="111" selection-end="146" vertical-scroll-proportion="0.0">
+        <state line="35" column="9" selection-start="1160" selection-end="1160" vertical-scroll-proportion="-22.884615">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/libraries/encryption.php">
+    <entry file="file://$PROJECT_DIR$/application/modules/sys/controllers/dashboard.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="24" selection-start="463" selection-end="472" vertical-scroll-proportion="0.0">
+        <state line="13" column="1" selection-start="367" selection-end="367" vertical-scroll-proportion="-8.5">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/bugtracker/models/user_model.php">
+    <entry file="file://$PROJECT_DIR$/application/modules/sys/views/layouts/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="21" selection-start="870" selection-end="870" vertical-scroll-proportion="0.0">
+        <state line="30" column="84" selection-start="1234" selection-end="1234" vertical-scroll-proportion="-10.0">
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1388742707303" expanded="true" signature="4842:4950" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/sys/css/ace.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="199718" selection-start="199707" selection-end="199718" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/bugtracker/js/pc.user.js">
+    <entry file="file://$PROJECT_DIR$/assets/sys/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="61" selection-start="746" selection-end="746" vertical-scroll-proportion="0.0">
+        <state line="6" column="53" selection-start="225" selection-end="225" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/bugtracker/views/layouts/block.php">
+    <entry file="file://$PROJECT_DIR$/application/modules/sys/controllers/user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="12" column="81" selection-start="299" selection-end="341" vertical-scroll-proportion="-7.8461537">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/bugtracker/controllers/login.php">
+    <entry file="file://$PROJECT_DIR$/application/modules/sys/views/user/list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="96" selection-start="589" selection-end="589" vertical-scroll-proportion="0.364817">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/bugtracker/views/home/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="6" selection-start="75" selection-end="75" vertical-scroll-proportion="-1.9615384">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/language/en/bugtracker/global_lang.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/language/en/bugtracker/login_lang.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/language/en/bugtracker/block_lang.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="49" selection-start="282" selection-end="282" vertical-scroll-proportion="-6.5384617">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/modules/bugtracker/controllers/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="54" selection-start="897" selection-end="897" vertical-scroll-proportion="-14.269231">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/bugtracker/css/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="170" column="27" selection-start="3017" selection-end="3017" vertical-scroll-proportion="0.6494845">
+        <state line="27" column="12" selection-start="765" selection-end="765" vertical-scroll-proportion="0.4214876">
           <folding />
         </state>
       </provider>

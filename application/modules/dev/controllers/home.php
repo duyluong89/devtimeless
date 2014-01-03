@@ -7,7 +7,7 @@ class home extends MY_Controller{
 	}
 	
 	function index(){
-		$this->content("da");
+       	$this->content("da");
 		$this->left("dđsss");
 		$this->view =  "layouts/2columns-left";
 		$this->layout = "layouts/index";

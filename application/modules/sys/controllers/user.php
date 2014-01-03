@@ -7,11 +7,11 @@ class user extends SYS_Controller{
 	
 	function index(){
 		if ($this->input->is_ajax_request()) {
-			die('s');
 			$this->_process();
 			return;
 		}
+        $this->data['includeJquery'] = $this->load->view("user/jquery",null,TRUE);
 		$this->view = "user/list";
-		
+        $this->layout = "layouts/index";
 	}
 }

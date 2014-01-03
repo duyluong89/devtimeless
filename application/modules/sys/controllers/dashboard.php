@@ -7,6 +7,7 @@ class dashboard extends SYS_Controller{
 	}
 	function index(){
 		$this->data['chats'] = $this->chat->get_all();
+        $this->data['includeJquery'] = $this->load->view("dashboard/jquery",null,TRUE);
 		$this->view =  "dashboard/index";
 		$this->layout = "layouts/index";
 	}
